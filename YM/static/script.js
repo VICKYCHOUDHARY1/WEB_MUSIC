@@ -14,7 +14,7 @@ function onYouTubeIframeAPIReady() {
       modestbranding: 1,
       loop: 1,
       playlist: videoId,
-      key: 'YOUR_API_KEY' // Add your API key here
+      key: 'AIzaSyBz5NX4HAyvsz4o8FvjTe9t8irKL5gNVY8' // Add your API key here
     },
     events: {
       'onReady': onPlayerReady,
