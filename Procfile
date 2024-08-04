@@ -1,3 +1,3 @@
-release: python manage.py collectstatic --noinput
+release: python YM/manage.py collectstatic --noinput
 web: gunicorn YM.wsgi:application
-worker: python manage.py runworker
+worker: python YM/manage.py runworker
