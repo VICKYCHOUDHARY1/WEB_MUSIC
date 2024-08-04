@@ -1,3 +1,2 @@
-
-web: gunicorn ./YM/wsgi.py
-worker: python YM/manage.py runworker
+web: gunicorn YM.wsgi:application
+worker: python3 -m YM
