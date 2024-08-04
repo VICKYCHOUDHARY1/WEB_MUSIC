@@ -5,6 +5,6 @@ uvicorn
 python-socketio[client,asyncio]
 python-dotenv
 tgcrypto
-git+https://github.com/KurimuzonAkuma/pyrogram@dev
+pyrofork
 gunicorn==20.1.0
 flask
