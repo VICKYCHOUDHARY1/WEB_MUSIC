@@ -7,3 +7,4 @@ python-dotenv
 tgcrypto
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
 gunicorn==20.1.0
+flask
