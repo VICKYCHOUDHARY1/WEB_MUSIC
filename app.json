@@ -1,0 +1,32 @@
+{
+  "name": "my-fastapi-app",
+  "description": "A FastAPI app with Socket.IO and static files.",
+  "repository": "https://github.com/TheTeamVivek/WB-MUSIC",
+  "keywords": ["fastapi", "socket.io", "python", "telegram-bot", "pyrogram"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Your API ID from Telegram",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your API Hash from Telegram",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from BotFather",
+      "required": true
+    },
+    "LOG_GROUP_ID": {
+      "description": "The group ID where logs will be sent",
+      "required": true
+    }
+  },
+  "scripts": {
+    "start": "python3 -m YM "
+  }
+}
