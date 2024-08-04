@@ -1,14 +1,15 @@
+import os
+import uvicorn
+import asyncio
+import socketio
+from bot import bot
+from YM import LOGGER
+from pyrogram import idle
+from dotenv import load_dotenv
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
-import socketio
-import asyncio
-from bot import bot
-from pyrogram import idle
-import os
-from dotenv import load_dotenv
-import uvicorn
-from YM import LOGGER
+
 load_dotenv()
 
 # Create FastAPI app instance
