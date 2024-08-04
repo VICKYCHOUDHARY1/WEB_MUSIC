@@ -33,7 +33,7 @@ async def message(sid, data):
 async def start_bot():
     LOGGER("YM").info("Starting bot...")
     await bot.start()
-    await bot.send_message(-1002146211959, "Started")
+    await bot.send_message(-1002136795173, "Started")
     LOGGER("YM").info(f"Bot Started As {bot.me.first_name}")
     await idle()
 
