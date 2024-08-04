@@ -8,3 +8,4 @@ tgcrypto
 pyrofork
 gunicorn==20.1.0
 flask
+motor
